@@ -1,0 +1,12 @@
+.container
+  h1 Input command
+
+  = form_for :commands, url: commands_run_path, method: :post, remote: true do |f|
+    .mb-3
+      = f.label :command, class: 'form-label'
+      = f.text_area :command, rows: 10, cols: 50, class: 'form-control'
+    = f.submit 'Run', class: 'btn btn-primary'
+
+  #report.mt-3
+    h2 Report
+    #response
