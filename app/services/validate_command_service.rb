@@ -10,7 +10,7 @@ class ValidateCommandService
     y = commands.second.to_i
     f = commands.last
 
-    if x < Board::WIDTH && y < Board::HEIGHT && Board::FACES.include?(f)
+    if x >= 0 && y >= 0 && x < Board::WIDTH && y < Board::HEIGHT && Board::FACES.include?(f)
       return true
     end
 

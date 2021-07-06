@@ -28,7 +28,7 @@ class CommandService
   private
 
   def extract_place_command(command)
-    @place_command = command.split('PLACE ').last.split(', ')
+    @place_command = command.split('PLACE ').last.split(/,\s*/)
   end
 end
 
