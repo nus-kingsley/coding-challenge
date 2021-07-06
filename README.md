@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+TECH STACK
+-------------------------
+- Ruby on Rails
+- Slim
+- Bootstrap
+- Jquery
 
-Things you may want to cover:
+GUIDES
+-------------------------
 
-* Ruby version
+### How to launch project
+- Install Ruby, follow specific version at `.ruby-version`
 
-* System dependencies
+- `bundle`
 
-* Configuration
+- Install Node, follow specific version at `.nvmrc`
 
-* Database creation
+- `yarn install`
 
-* Database initialization
+- `rails s`
 
-* How to run the test suite
+### How to run test cases
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Run Command: `rspec spec/services/command_service_spec.rb`
