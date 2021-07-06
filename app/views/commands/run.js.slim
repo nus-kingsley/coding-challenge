@@ -1,2 +1,6 @@
-|
-  $('#response').text('success')
+- if @error
+  |
+    $('#response').text("#{@error}")
+- else
+  |
+    $('#response').text("#{@report[:x]}, #{@report[:y]}, #{@report[:f]}")
