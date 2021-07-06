@@ -27,4 +27,4 @@ GUIDES
 - Run Command: `rspec spec/services/command_service_spec.rb`
 
 ### Test site
-- Heroku: `https://robot-simulator-challenge.herokuapp.com/`
+- Heroku: https://robot-simulator-challenge.herokuapp.com/
