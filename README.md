@@ -6,6 +6,7 @@ TECH STACK
 - Slim
 - Bootstrap
 - Jquery
+- Heroku
 
 GUIDES
 -------------------------
@@ -24,3 +25,6 @@ GUIDES
 ### How to run test cases
 
 - Run Command: `rspec spec/services/command_service_spec.rb`
+
+### Test site
+- Heroku: `https://robot-simulator-challenge.herokuapp.com/`
